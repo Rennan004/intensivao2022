@@ -15,7 +15,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- Schema epiz_30729343_CANTINA
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `epiz_30729343_CANTINA` DEFAULT CHARACTER SET utf8 ;
-USE `epiz_30728937_CANTINA` ;
+USE `epiz_30729343_CANTINA` ;
 
 -- -----------------------------------------------------
 -- Table `epiz_30729343_CANTINA`.`ATENDENTE`

@@ -8,17 +8,17 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema epiz_30728937_CANTINA
+-- Schema epiz_30729343_CANTINA
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema epiz_30728937_CANTINA
+-- Schema epiz_30729343_CANTINA
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `epiz_30729343_CANTINA` DEFAULT CHARACTER SET utf8 ;
 USE `epiz_30728937_CANTINA` ;
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`ATENDENTE`
+-- Table `epiz_30729343_CANTINA`.`ATENDENTE`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`ATENDENTE` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -31,7 +31,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`FORNECEDOR`
+-- Table `epiz_30729343_CANTINA`.`FORNECEDOR`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`FORNECEDOR` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -50,7 +50,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`CLIENTE`
+-- Table `epiz_30729343_CANTINA`.`CLIENTE`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`CLIENTE` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -71,7 +71,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`ESTOQUE`
+-- Table `epiz_30729343_CANTINA`.`ESTOQUE`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`ESTOQUE` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -83,7 +83,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`PRODUTO`
+-- Table `epiz_30729343_CANTINA`.`PRODUTO`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`PRODUTO` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -99,7 +99,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`VENDA`
+-- Table `epiz_30729343_CANTINA`.`VENDA`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`VENDA` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -114,7 +114,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`ITENSVENDA`
+-- Table `epiz_30729343_CANTINA`.`ITENSVENDA`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`ITENSVENDA` (
   `COMPRA_ID` INT NOT NULL,
@@ -125,7 +125,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`COMPRA`
+-- Table `epiz_30729343_CANTINA`.`COMPRA`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`COMPRA` (
   `ID` INT NOT NULL AUTO_INCREMENT,
@@ -139,7 +139,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `epiz_30728937_CANTINA`.`ITENSCOMPRA`
+-- Table `epiz_30729343_CANTINA`.`ITENSCOMPRA`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `epiz_30729343_CANTINA`.`ITENSCOMPRA` (
   `PRODUTO_ID` INT NOT NULL,
